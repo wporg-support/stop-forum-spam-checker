@@ -25,7 +25,7 @@ jQuery(document).ready(function( $ ) {
     if ( $IPs.length >= 1 ) {
         $IPs.each(function() {
             var address = $(this).text().replace( /(\(|\))/gi, '' );
-            $(this).append( '<button type="button" class="button button-primary button-small stop-forum-spam-check" style="margin-left:0.5rem;" data-ip="' + address + '">Check IP</button>' );
+            $(this).append( '<button type="button" class="button button-primary button-small stop-forum-spam-check" style="margin-left:0.5rem;color:#fff!important;" data-ip="' + address + '">Check IP</button>' );
         } );
     }
 
